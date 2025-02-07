@@ -51,7 +51,7 @@ const MainContent = () => {
       <audio ref={audioRef} src={soundEffect} />
 
       <div className="flex items-center justify-between text-3xl p-5 text-black bg-blue-400 border-4 border-[#000] rounded-b-3xl">
-        <p className="font-bold font-mias">Chat Broo AI</p>
+        <p className="font-bold font-mias">ChatBroo AI </p>
         <img src={girlLogo} alt="" className="w-10 rounded-full border-2 border-[#000]" />
       </div>
 
@@ -60,7 +60,7 @@ const MainContent = () => {
           <>
             <div className="my-12 text-[56px] text-slate-500 font-semibold p-5">
               <p className="text-blue-500 font-mias">{getGreeting()}, Cees!</p>
-              <p className="text-blue-500 font-mias">Ada yang bisa saya bantu?</p>
+              <p className="text-blue-500 font-mias">Ado yang biso aku bantu?</p>
             </div>
           </>
         ) : (
