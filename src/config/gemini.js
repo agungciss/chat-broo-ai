@@ -21,7 +21,7 @@ async function run(prompt) {
     history: [],
   });
 
-  const palembangPrompt = `Respon dio pakek bahaso palembang. Buatlah respon yang ngelawak samo mengandung roasting ringan bae untuk pengguno dan kasih pujian dikit jugo untuk dio: "${prompt}"`;
+  const palembangPrompt = `Respon dio pakek bahaso palembang. Buatlah respon yang ngelawak samo mengandung roasting ringan bae untuk pengguno samo kasih pujian dikit bae untuk dio: "${prompt}"`;
 
   const result = await chatSession.sendMessage(palembangPrompt);
   const response = await result.response.text();
